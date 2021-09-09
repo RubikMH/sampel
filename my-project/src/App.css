@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+
+    display: flex;
+    background-color: aliceblue;
+    width: 50%;
+    border-radius: 30px;
+
+    box-shadow: 2px 2px 12px black;
+
+
+
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 20px 20px 0 0;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.star img {
+    width: 20px;
+    height: 20px;
+}
+
+.About {
+    padding: 50px;
+}
+
+.info {
+    padding: 50px;
+}
+
+.praice {
+    margin-top: 50px;
+    border: 1px solid;
+    display: flex;
+    background-color:red;
+    color: black;
+
+    width:30%
+}
+
+.praice img {
+    width: 20px;
+    height: 20px;
+}
+.content-price{
+    padding-left: 30px
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.btn-primary{
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: cornsilk;
+}
+.btn-primary:hover{
+    background-color: green;
+    
+}
+

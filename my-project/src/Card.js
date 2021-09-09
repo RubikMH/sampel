@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Card({ src, style, size }) {
   function MySize() {
@@ -18,4 +19,11 @@ function Card({ src, style, size }) {
     </div>
   );
 }
+Card.propTypes = {
+  size : PropTypes.oneOf(["small", "medium"]),
+  style : PropTypes.object,
+  src : PropTypes.string.isRequired,
+
+}
+
 export default Card;

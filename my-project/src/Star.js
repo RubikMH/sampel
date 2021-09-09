@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Star({ source }) {
   return (
@@ -15,4 +16,8 @@ function Star({ source }) {
     </div>
   );
 }
+Star.propTypes = {
+  source: PropTypes.string.isRequired,
+}
+
 export default Star;

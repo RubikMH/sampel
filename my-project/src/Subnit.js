@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'propTypes'
 
 function Subnit( {value}) {
     return(
@@ -11,5 +12,9 @@ function Subnit( {value}) {
     )
     
 }
+Subnit.propTypes = {
+    value : PropTypes.string,
+}
+
 
 export default Subnit

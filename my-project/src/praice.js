@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'PropTypes'
 
 function Praice( {src}) {
     return(
@@ -10,5 +11,8 @@ function Praice( {src}) {
     </div>
     )
     
+}
+Praice.propTypes = {
+    src: PropTypes.string.isRequired,
 }
 export default Praice;
